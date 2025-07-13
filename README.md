@@ -18,7 +18,7 @@
 - 🎓 BBIT student at **University of Engineering and Technology**
 - 💬 Ask me about: **Android, Java, Firebase, UI/UX, or C++**
 - 📫 Email: [mkhalilakbarkhan@gmail.com](mailto:mkhalilakbarkhan@gmail.com)
-- 🌐 Facebook: [M Khalil Akbar Khan](https://web.facebook.com/profile.php?id=61578422574734)
+- 🌐 LinkedIn: [M Khalil Akbar Khan](https://www.linkedin.com/in/m-khalil-akbar-khan/)
 - ❤️ I enjoy turning ideas into apps with clean UI and solid logic
 
 ---
@@ -55,7 +55,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khalilniazi&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khalilniazi&langs_count=10&layout=compact&hide_title=false&card_width=445&theme=default" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -70,7 +70,7 @@
   <a href="https://www.linkedin.com/in/m-khalil-akbar-khan" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="30" width="30" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
+  
   <a href="https://web.facebook.com/profile.php?id=61578422574734" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" height="30" width="30" alt="Facebook" />
   </a>
