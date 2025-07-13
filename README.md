@@ -18,6 +18,7 @@
 - 🎓 BBIT student at **University of Engineering and Technology**
 - 💬 Ask me about: **Android, Java, Firebase, UI/UX, or C++**
 - 📫 Email: [mkhalilakbarkhan@gmail.com](mailto:mkhalilakbarkhan@gmail.com)
+- 🌐 Facebook: [M Khalil Akbar Khan](https://web.facebook.com/profile.php?id=61578422574734)
 - ❤️ I enjoy turning ideas into apps with clean UI and solid logic
 
 ---
@@ -70,8 +71,8 @@
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="30" width="30" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.facebook.com/M%20Khalil%20Akbar%20Khan" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" height="30" width="30" alt="Facebook" />
+  <a href="https://web.facebook.com/profile.php?id=61578422574734" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" height="30" width="30" alt="Facebook" />
   </a>
 </p>
 
