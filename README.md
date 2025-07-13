@@ -43,11 +43,11 @@
 
 ## 🧩 Recent Projects
 
-<!--START_SECTION:repos-->
+<!--START_SECTION:recent-repos-->
 <!-- Repositories will be auto-inserted here using GitHub Action -->
-<!--END_SECTION:repos-->
+<!--END_SECTION:recent-repos-->
 
-> ⏳ _This section updates automatically with your latest repositories._
+> ⏳ _This section updates automatically with your latest repositories using GitHub Actions._
 
 ---
 
@@ -69,10 +69,13 @@
   <a href="https://www.linkedin.com/in/m-khalil-akbar-khan" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="30" width="30" alt="LinkedIn" />
   </a>
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/M%20Khalil%20Akbar%20Khan" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" height="30" width="30" alt="Facebook" />
+  </a>
 </p>
 
 ---
-
 
 <p align="center">
   <i>Built with ❤️ by Muhammad Khalil Akbar</i>
