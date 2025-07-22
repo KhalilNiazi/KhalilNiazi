@@ -1,38 +1,31 @@
-const fs = require('fs');
-const https = require('https');
+name: 🔁 Update Recent Repos
 
-const username = 'KhalilNiazi'; // 🔁 Replace with your GitHub username
-const maxRepos = 5;
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:
 
-function fetchRepos(callback) {
-  https.get(`https://api.github.com/users/${username}/repos?sort=updated&per_page=${maxRepos}`, {
-    headers: { 'User-Agent': 'Node.js' }
-  }, (res) => {
-    let data = '';
-    res.on('data', chunk => data += chunk);
-    res.on('end', () => {
-      const repos = JSON.parse(data);
-      if (Array.isArray(repos)) {
-        callback(repos.map(repo =>
-          `- [📂 ${repo.name}](${repo.html_url}) - ${repo.description || ''}`
-        ).join('\n'));
-      } else {
-        console.error("Failed to fetch repos.");
-      }
-    });
-  });
-}
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
 
-function updateReadme(content) {
-  const readmePath = './README.md';
-  let readme = fs.readFileSync(readmePath, 'utf8');
-  const start = '<!--START_SECTION:recent-repos-->';
-  const end = '<!--END_SECTION:recent-repos-->';
-  const regex = new RegExp(`${start}[\\s\\S]*?${end}`);
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-  const newSection = `${start}\n${content}\n${end}`;
-  readme = readme.replace(regex, newSection);
-  fs.writeFileSync(readmePath, readme);
-}
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
 
-fetchRepos(updateReadme);
+      - name: Run update script
+        run: |
+          node scripts/update-repos.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "🔄 Updated recent repositories section"
+          git push
