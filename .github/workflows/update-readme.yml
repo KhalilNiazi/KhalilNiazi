@@ -2,17 +2,16 @@ name: 🔁 Update Recent Repos
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update:
+    name: 📝 Update README
     runs-on: ubuntu-latest
     steps:
-      - name: Update README with recent repositories
-        uses: gautamkrishnar/blog-post-workflow@master
+      - name: Fetch KhalilNiazi’s recent GitHub activity
+        uses: Readme-Workflows/recent-activity@main
         with:
-          comment_tag_name: "recent-repos"
-          feed_list: "https://github.com/KhalilNiazi"
-          repo_type: "public"
-          max_post_count: 6
+          GH_USERNAME: "KhalilNiazi"
+          COMMIT_MESSAGE: "📌 Update recent GitHub repos"
