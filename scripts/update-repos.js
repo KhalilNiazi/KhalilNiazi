@@ -2,7 +2,7 @@ name: 🔁 Update Recent Repos
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
+    - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:
 
 jobs:
