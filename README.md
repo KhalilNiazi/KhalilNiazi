@@ -42,7 +42,7 @@
 
 ---
 
-## 🧩 Recent Projects
+## 📌 Recent Projects
 
 <!--START_SECTION:recent-repos-->
 <!-- Repositories will be auto-inserted here using GitHub Action -->
