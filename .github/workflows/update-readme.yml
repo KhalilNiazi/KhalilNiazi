@@ -13,6 +13,6 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           comment_tag_name: "recent-repos"
-          feed_list: "https://github.com/KhalilNiazi/KhalilNiazi"
+          feed_list: "https://github.com/KhalilNiazi"
           repo_type: "public"
           max_post_count: 6
