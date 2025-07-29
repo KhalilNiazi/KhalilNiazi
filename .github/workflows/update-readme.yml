@@ -1,17 +1,1 @@
-name: 🔁 Update Recent Repos
 
-on:
-  schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch:
-
-jobs:
-  update:
-    name: 📝 Update README
-    runs-on: ubuntu-latest
-    steps:
-      - name: Fetch KhalilNiazi’s recent GitHub activity
-        uses: Readme-Workflows/recent-activity@main
-        with:
-          GH_USERNAME: "KhalilNiazi"
-          COMMIT_MESSAGE: "📌 Update recent GitHub repos"
