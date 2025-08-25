@@ -14,7 +14,6 @@
 
 ## 🚀 About Me
 
-- ✅ Recently completed: **CGPA Calculator (Android + Firebase)**
 - 🎓 BBIT student at **University of Engineering and Technology**
 - 💬 Ask me about: **Android, Java, Firebase, UI/UX, or C++**
 - 📫 Email: [mkhalilakbarkhan@gmail.com](mailto:mkhalilakbarkhan@gmail.com)
