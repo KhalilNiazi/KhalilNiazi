@@ -1,4 +1,4 @@
-# 💫 About Me:
+# About Me:
 🔭I’m currently working on scalable Software Development projects for Mobile,System and Web platforms.<br>👯 I’m looking to collaborate on Open Source Android,System and and Web Development initiatives.<br>🌱 I’m currently learning advanced Software Architecture and Cloud Storage solutions.<br>💬 Ask me about Java, Kotlin, C++, Python, and REST API integration.<br>⚡ Fun fact I built a command-line Banking System to understand banking algorithms!.
 
 
